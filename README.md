@@ -1,6 +1,6 @@
-Starting from scratch — teaching myself cloud infrastructure and working toward SRE. Labs, notes, mistakes, and everything I figure out along the way. All real, nothing copied.
-
 # sre-training
+
+Starting from scratch — teaching myself cloud infrastructure and working toward SRE. Labs, notes, mistakes, and everything I figure out along the way. All real, nothing copied.
 
 I'm Donald Raph. I'm teaching myself cloud infrastructure from the ground up, with the goal of eventually working as an SRE.
 
