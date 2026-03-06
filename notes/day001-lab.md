@@ -34,9 +34,9 @@ Opens `top` but only showing the one process I care about, refreshing every seco
 
 ### Observations
 
-![top single CPU view](sre-training/screenshots/top-initial.png)
+![top single CPU view](../screenshots/top-initial.png)
 
-![top per-CPU view](sre-training/screenshots/top-per-cpu.png)
+![top per-CPU view](../screenshots/top-per-cpu.png)
 
 Output I saw:
 
@@ -109,7 +109,7 @@ This is the machine-readable version of the same process info — one long line 
 
 ### Observations
 
-![stat output](sre-training/screenshots/proc-stat.png)
+![stat output](../screenshots/proc-stat.png)
 
 Output (it's all on one line, truncated here):
 
@@ -137,7 +137,7 @@ ls -la /proc/$PID_YES/fd/
 
 ### Observations
 
-![fd listing](sre-training/screenshots/proc-fd.png)
+![fd listing](../screenshots/proc-fd.png)
 
 Output:
 
@@ -167,7 +167,7 @@ Sends a signal telling the process to stop. Default signal is SIGTERM — it's n
 
 ### Observations
 
-![kill yes output](sre-training/screenshots/kill-yes.png)
+![kill yes output](../screenshots/kill-yes.png)
 
 Output:
 
@@ -222,7 +222,7 @@ watch -n 1 "cat /proc/$PID_MEM/status | grep -E 'VmRSS|VmSize'"
 
 ### Observations
 
-![watch memory output](sre-training/screenshots/watch-memory.png)
+![watch memory output](../screenshots/watch-memory.png)
 
 What I saw mid-allocation:
 
@@ -253,7 +253,7 @@ Same as before — sends SIGTERM to the process. Memory process stops, all the R
 
 ### Observations
 
-![kill memory process](sre-training/screenshots/kill-mem.png)
+![kill memory process](../screenshots/kill-mem.png)
 
 ```
 [1]  + 1131 terminated  python3 -c  > /dev/null 2>&1
